@@ -1,0 +1,17 @@
+2021-08-09 08:29:30.056  INFO 17728 --- [main] c.client.ftp.DownloadRawFileApplication  : Starting DownloadRawFileApplication using Java 16.0.1 on Hitman-PC with PID 17728 (C:\Users\Hitman\Downloads\Upload-Processed-File\target\classes started by Hitman in C:\Users\Hitman\Downloads\Upload-Processed-File)
+2021-08-09 08:29:30.059  INFO 17728 --- [main] c.client.ftp.DownloadRawFileApplication  : No active profile set, falling back to default profiles: default
+2021-08-09 08:29:30.525  INFO 17728 --- [main] c.client.ftp.DownloadRawFileApplication  : Started DownloadRawFileApplication in 0.857 seconds (JVM running for 1.257)
+2021-08-09 08:30:01.008  INFO 17728 --- [scheduling-1] com.client.ftp.DownloadRawData           : [com.client.ftp.DownloadRawData downloadRawFile - Entry]
+2021-08-09 08:30:01.013  INFO 17728 --- [scheduling-1] com.client.ftp.DownloadRawData           : [com.client.ftp.DownloadRawData downloadRawFile - Connecting with ftp host at '192.168.154.194']
+2021-08-09 08:30:01.016  INFO 17728 --- [scheduling-1] com.client.ftp.DownloadRawData           : [com.client.ftp.DownloadRawData downloadRawFile - Connection successful with ftp host at '192.168.154.194']
+2021-08-09 08:30:01.017  INFO 17728 --- [scheduling-1] com.client.ftp.DownloadRawData           : [com.client.ftp.DownloadRawData downloadRawFile - Current ftp directory '/RAW']
+2021-08-09 08:30:01.017  INFO 17728 --- [scheduling-1] com.client.ftp.DownloadRawData           : [com.client.ftp.DownloadRawData downloadRawFile - downloading raw file for processing, File Name: 'RAW_DATA_[DATE].AMDX']
+2021-08-09 08:30:01.019  INFO 17728 --- [scheduling-1] com.client.ftp.DownloadRawData           : [com.client.ftp.DownloadRawData downloadRawFile -successfully downloaded raw file for processing, File path: 'C:\DEV\amdox\RAW\RAW_DATA_08-09-2021.AMDX']
+2021-08-09 08:30:01.019  INFO 17728 --- [scheduling-1] com.client.ftp.DownloadRawData           : [com.client.ftp.DownloadRawData downloadRawFile - successfully processed raw file.]
+2021-08-09 08:30:01.019  INFO 17728 --- [scheduling-1] com.client.ftp.DownloadRawData           : [com.client.ftp.DownloadRawData downloadRawFile - successfully changed the name for processed file. Name:C:\DEV\amdox\RAW\RAW_DATA_08-09-2021.AMDX]
+2021-08-09 08:30:01.021  INFO 17728 --- [scheduling-1] com.client.ftp.DownloadRawData           : [com.client.ftp.DownloadRawData downloadRawFile - successfully copied the processed file to dir:'C:\DEV\amdox\PROCESSED\PROCESSED_DATA_08-09-2021.AMDX']
+2021-08-09 08:30:01.022  INFO 17728 --- [scheduling-1] com.client.ftp.DownloadRawData           : [com.client.ftp.DownloadRawData downloadRawFile - successfully updated the status file as:'PROCESSED']
+2021-08-09 08:30:01.022  INFO 17728 --- [scheduling-1] com.client.ftp.DownloadRawData           : [com.client.ftp.DownloadRawData downloadRawFile - uploading the processed file to FTP at :'/PROCESSED']
+2021-08-09 08:30:01.023  INFO 17728 --- [scheduling-1] com.client.ftp.DownloadRawData           : [com.client.ftp.DownloadRawData downloadRawFile - current FTP dir :'/PROCESSED']
+2021-08-09 08:30:01.024  INFO 17728 --- [scheduling-1] com.client.ftp.DownloadRawData           : [com.client.ftp.DownloadRawData downloadRawFile - processed file uploaded successfully']
+2021-08-09 08:30:01.025  INFO 17728 --- [scheduling-1] com.client.ftp.DownloadRawData           : [com.client.ftp.DownloadRawData downloadRawFile - successfully updated the status file as:'UPLOADED TO FTP']
