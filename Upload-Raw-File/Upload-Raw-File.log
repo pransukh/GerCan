@@ -1,0 +1,26 @@
+2021-08-09 08:26:42.305  INFO 10736 --- [main] com.client.ftp.UploadRawFileApplication  : Starting UploadRawFileApplication using Java 16.0.1 on Hitman-PC with PID 10736 (C:\Users\Hitman\Downloads\Upload-Raw-File\target\classes started by Hitman in C:\Users\Hitman\Downloads\Upload-Raw-File)
+2021-08-09 08:26:42.309  INFO 10736 --- [main] com.client.ftp.UploadRawFileApplication  : No active profile set, falling back to default profiles: default
+2021-08-09 08:26:43.353  INFO 10736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-09 08:26:43.365  INFO 10736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-09 08:26:43.365  INFO 10736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-09 08:26:43.446  INFO 10736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-09 08:26:43.446  INFO 10736 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1019 ms
+2021-08-09 08:26:43.804  INFO 10736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-09 08:26:43.815  INFO 10736 --- [main] com.client.ftp.UploadRawFileApplication  : Started UploadRawFileApplication in 2.007 seconds (JVM running for 2.633)
+2021-08-09 08:27:01.015  INFO 10736 --- [scheduling-1] com.client.ftp.DownloadProcessedData     : [com.client.ftp.UploadRawData uploadRawFile] - Entry
+2021-08-09 08:27:01.020  INFO 10736 --- [scheduling-1] com.client.ftp.DownloadProcessedData     : [com.client.ftp.UploadRawData uploadRawFile - polling ftp URL '192.168.154.194' to upload the raw file.]
+2021-08-09 08:27:01.027  INFO 10736 --- [scheduling-1] com.client.ftp.DownloadProcessedData     : [com.client.ftp.UploadRawData uploadRawFile] - connected with ftp '192.168.154.194'
+2021-08-09 08:27:01.027  INFO 10736 --- [scheduling-1] com.client.ftp.DownloadProcessedData     : [com.client.ftp.UploadRawData uploadRawFile - raw file name 'C:/DEV/Customer/RAW/RAW_DATA_08-09-2021.AMDX'.]
+2021-08-09 08:27:01.027  INFO 10736 --- [scheduling-1] com.client.ftp.DownloadProcessedData     : [com.client.ftp.UploadRawData uploadRawFile - uploading file with name 'RAW_DATA_08-09-2021.AMDX'.]
+2021-08-09 08:27:01.027  INFO 10736 --- [scheduling-1] com.client.ftp.DownloadProcessedData     : [com.client.ftp.UploadRawData uploadRawFile - ftp current working directory: '/RAW'.]
+2021-08-09 08:27:01.030  INFO 10736 --- [scheduling-1] com.client.ftp.DownloadProcessedData     : [com.client.ftp.UploadRawData uploadRawFile - Successfully uploaded file with name 'RAW_DATA_08-09-2021.AMDX'.]
+2021-08-09 08:27:01.030 ERROR 10736 --- [scheduling-1] com.client.ftp.DownloadProcessedData     : [com.client.ftp.UploadRawData uploadRawFile - closing ftp connections.]
+2021-08-09 08:27:01.031 ERROR 10736 --- [scheduling-1] com.client.ftp.DownloadProcessedData     : [com.client.ftp.UploadRawData uploadRawFile - Connections closed.]
+2021-08-09 08:31:47.014  INFO 18376 --- [scheduling-1] com.client.ftp.DownloadProcessedData     : [com.client.ftp.DownloadProcessedData downloadProcessedFile - Entry]
+2021-08-09 08:31:47.018  INFO 18376 --- [scheduling-1] com.client.ftp.DownloadProcessedData     : [com.client.ftp.DownloadProcessedData downloadProcessedFile - Calling mdox REST API to check current file status.]
+2021-08-09 08:31:47.213  INFO 18376 --- [scheduling-1] com.client.ftp.DownloadProcessedData     : [com.client.ftp.DownloadProcessedData downloadProcessedFile - mdox REST API success. Message UPLOADED TO FTP]
+2021-08-09 08:31:47.214  INFO 18376 --- [scheduling-1] com.client.ftp.DownloadProcessedData     : [com.client.ftp.DownloadProcessedData downloadProcessedFile - polling ftp URL '192.168.154.194' to download the processed file.]
+2021-08-09 08:31:47.216  INFO 18376 --- [scheduling-1] com.client.ftp.DownloadProcessedData     : [com.client.ftp.DownloadProcessedData downloadProcessedFile] - connected with ftp '192.168.154.194'
+2021-08-09 08:31:47.217  INFO 18376 --- [scheduling-1] com.client.ftp.DownloadProcessedData     : [com.client.ftp.DownloadProcessedData downloadProcessedFile - processed file name 'PROCESSED_DATA_08-09-2021.AMDX'.]
+2021-08-09 08:31:47.217  INFO 18376 --- [scheduling-1] com.client.ftp.DownloadProcessedData     : [com.client.ftp.DownloadProcessedData downloadProcessedFile - downloading file with name 'C:\DEV\Customer\PROCESSED\PROCESSED_DATA_08-09-2021.AMDX'.]
+2021-08-09 08:31:47.219  INFO 18376 --- [scheduling-1] com.client.ftp.DownloadProcessedData     : [com.client.ftp.DownloadProcessedData downloadProcessedFile - Successfully downloaded file with name 'C:\DEV\Customer\PROCESSED\PROCESSED_DATA_08-09-2021.AMDX'.]

@@ -1,0 +1,15 @@
+2021-08-09 08:31:45.574  INFO 12388 --- [main] com.amdox.process.AmdoxApplication       : Starting AmdoxApplication using Java 16.0.1 on Hitman-PC with PID 12388 (C:\Users\Hitman\Downloads\amdox\target\classes started by Hitman in C:\Users\Hitman\Downloads\amdox)
+2021-08-09 08:31:45.577  INFO 12388 --- [main] com.amdox.process.AmdoxApplication       : No active profile set, falling back to default profiles: default
+2021-08-09 08:31:46.438  INFO 12388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2021-08-09 08:31:46.454  INFO 12388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-09 08:31:46.454  INFO 12388 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-09 08:31:46.540  INFO 12388 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-09 08:31:46.540  INFO 12388 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 910 ms
+2021-08-09 08:31:46.891  INFO 12388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2021-08-09 08:31:46.900  INFO 12388 --- [main] com.amdox.process.AmdoxApplication       : Started AmdoxApplication in 1.73 seconds (JVM running for 2.013)
+2021-08-09 08:31:01.139  INFO 12388 --- [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09 08:31:01.139  INFO 12388 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-09 08:31:01.140  INFO 12388 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-09 08:31:01.162  INFO 12388 --- [http-nio-9001-exec-1] com.amdox.process.ProcessedFileStatus    : [GET - class com.amdox.process.ProcessedFileStatus], Entry. data: 08-09-2021 
+2021-08-09 08:31:01.166  INFO 12388 --- [http-nio-9001-exec-1] com.amdox.process.ProcessedFileStatus    : [GET - class com.amdox.process.ProcessedFileStatus], Response retrieved from status file. Message: UPLOADED TO FTP 
+2021-08-09 08:31:01.167  INFO 12388 --- [http-nio-9001-exec-1] com.amdox.process.ProcessedFileStatus    : [GET - class com.amdox.process.ProcessedFileStatus], Exit with no error. 
